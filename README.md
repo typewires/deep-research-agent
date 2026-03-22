@@ -13,7 +13,7 @@ The agent uses four specialized AI "agents" working together in a loop:
 3. **Result Evaluator** — Reviews the research and decides if it adequately answers your question. If not, it identifies *what's missing* so the next search is targeted
 4. **Report Writer** — Synthesizes all findings into a structured, sourced markdown report
 
-The key insight borrowed from deep research products: **the feedback loop**. If the evaluator finds gaps, it tells the query rewriter exactly what's missing, which produces a more targeted follow-up search. This runs up to 3 times before writing the final report.
+If the evaluator finds gaps, it tells the query rewriter what's missing, which produces a more targeted follow-up search. This runs up to 3 times before writing the final report.
 
 ```
 Question → Rewrite → Search → Evaluate → [Gap found?] → Rewrite again → Search again → ... → Write Report
@@ -24,7 +24,7 @@ Question → Rewrite → Search → Evaluate → [Gap found?] → Rewrite again 
 | Component | Tool | Role |
 |-----------|------|------|
 | LLM | [Llama 3.3 70B](https://llama.meta.com/) via [Groq](https://groq.com/) | Powers all 4 agents (query rewriting, evaluation, report writing) |
-| Search | [Tavily](https://tavily.com/) | Web search API built for AI agents — returns clean text, not raw HTML |
+| Search | [Tavily](https://tavily.com/) | Web search API built for AI agents. Returns clean text, not raw HTML. |
 | UI | [Streamlit](https://streamlit.io/) | Turns the Python script into an interactive web app |
 
 All three services offer free tiers — no credit card required to get started.
