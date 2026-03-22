@@ -39,7 +39,7 @@ You need two free API keys before setting up the project.
 2. Sign up with Google or email
 3. In the left sidebar, click **API Keys**
 4. Click **Create API Key** and give it any name
-5. Copy the key (starts with `gsk_`) — you only see it once
+5. Copy the key (starts with `gsk_`) 
 
 ### Tavily API Key (runs the web searches)
 
@@ -48,7 +48,7 @@ You need two free API keys before setting up the project.
 3. On the Dashboard, your API key is displayed (starts with `tvly-`)
 4. Copy it
 
-Save both keys somewhere safe. You'll need them in a few steps.
+Save both keys. You'll need them in a few steps.
 
 ## Setup
 
