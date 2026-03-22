@@ -27,13 +27,7 @@ Question → Rewrite → Search → Evaluate → [Gap found?] → Rewrite again 
 | Search | [Tavily](https://tavily.com/) | Web search API built for AI agents. Returns clean text, not raw HTML. |
 | UI | [Streamlit](https://streamlit.io/) | Turns the Python script into an interactive web app |
 
-All three services offer free tiers — no credit card required to get started.
-
-## Prerequisites
-
-- **Python 3.10 or higher** — [Download here](https://www.python.org/downloads/)
-- **Git** — [Download here](https://git-scm.com/downloads)
-- **A text editor** — [VS Code](https://code.visualstudio.com/) recommended (free)
+All three services offer free tiers. No credit card required to get started.
 
 ## Getting Your API Keys
 
