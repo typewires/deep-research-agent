@@ -2,7 +2,7 @@
 
 An open-source implementation of the AI-powered deep research workflow popularized by [OpenAI's Deep Research](https://openai.com/index/introducing-deep-research/),[Anthropic's Research feature for Claude](https://support.claude.com/en/articles/11088861-using-research-on-claude) and [Gemini Deep Research](https://gemini.google/overview/deep-research/)
 
-This project recreates the core research loop (query refinement, iterative web search, result evaluation, and report generation) using entirely free and open-source tools. This is a learning-oriented implementation. It's designed as a hands-on exploration of how these systems work under the hood, not as a full replacement for production-grade research products.
+This project implements a core research loop: query refinement, iterative web search, result evaluation, and report generation, using entirely free and open-source tools. It's a learning-oriented implementation designed to show how these systems work under the hood, not a replacement for production-grade research products.
 
 ## How It Works
 
